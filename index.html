@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Your App — Landing</title>
+    <meta name="description" content="Landing page for your app." />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="wrap nav-inner">
+        <div class="brand">
+          <span>🟦</span>
+          <span>Your App</span>
+          <span class="badge">ONE-TIME</span>
+        </div>
+        <div class="links">
+          <a href="faq.html">FAQ</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <section class="hero">
+        <h1 class="h-title">A simple landing page<br />that converts.</h1>
+        <p class="h-sub">
+          Short, clear value prop. One sentence that says who it’s for and what
+          it solves.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn primary" href="#" aria-label="Download">Download</a>
+          <a class="btn" href="faq.html">Read FAQ</a>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Fast to understand</h3>
+            <p>
+              No walls of text. Just the essentials, with links to policy pages.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Trust-ready</h3>
+            <p>Privacy Policy + Terms + FAQ are first-class pages.</p>
+          </div>
+          <div class="card">
+            <h3>GitHub Pages friendly</h3>
+            <p>Static files only — no backend required.</p>
+          </div>
+          <div class="card">
+            <h3>Easy to customize</h3>
+            <p>Swap the logo emoji, colors, and copy in minutes.</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="footer">
+        <div>© <span id="y"></span> Your App</div>
+        <div class="small-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
