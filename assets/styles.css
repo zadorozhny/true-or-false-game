@@ -1,3 +1,4 @@
+/* assets/styles.css */
 :root {
   --bg: #ffffff;
   --text: #111111;
@@ -42,6 +43,14 @@ a {
 
 .brand {
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-logo {
+  height: 32px;
+  width: auto;
 }
 
 .links a {
@@ -126,6 +135,10 @@ a {
 
   .brand {
     font-size: 1rem;
+  }
+
+  .brand-logo {
+    height: 28px;
   }
 
   .links {
